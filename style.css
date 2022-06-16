@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(birthday-party.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat ;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 20px;
+}
+.container{
+	width: 48%;
+	height: 1000px;
+	display: grid;
+	position: absolute;
+	margin-top: 100px;
+	top: 1%;
+	left: 25%;
+	grid-template-rows: 350px 400px 350px 500px 55px;
+	margin-bottom: 50px;
+}
+.birth1{
+	margin-top: 10px;
+}
+.birth1 img{
+	height: 350px;
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+}
+.birth2{
+	background: white;
+}
+.birth2 img{
+	float: right;
+	margin-right: 60px;
+	margin-top: 30px;
+}
+.birth2 h1{
+	font-family: cursive;
+	color: #e22f8f;
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 25px;
+}
+.birth2 p{
+	font-size: 16px;
+	line-height: 1.75;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.birth3{
+	background: #DDD;;
+}
+.birth3 img{
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.birth3 h1{
+	font-family: cursive;
+	color: #e22f8f;
+	font-size: 2rem;
+	margin-top: 25px;
+}
+.birth3 p{
+	font-size: 16px;
+	margin-top: 40px;
+	float: left;
+	margin-left: 100px;
+}
+.birth5{
+	background: #DDD;
+}
+.birth5 p{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 7px;
+}
+@media (max-width: 800px){
+	.container{
+		left: 1%;
+	}
+}
+/*@media (max-width: 600px){
+	.container{
+		left: 2%;
+		margin-right: 2%;
+	}
+}*/
